@@ -21,8 +21,8 @@ public class TestTmall {
         }
   
         try (
-                Connection c = DriverManager.getConnection("jdbc:mysql://localhost:3306/tmall_ssm?useUnicode=true&characterEncoding=utf8",
-                        "root", "admin");
+                Connection c = DriverManager.getConnection("jdbc:mysql://localhost:3306/tmall?useUnicode=true&characterEncoding=utf8",
+                        "root", "950423");
         )
         {
                 String sql = "select * from category where id=60";
